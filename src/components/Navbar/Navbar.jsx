@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 
 import { MenuItems } from "./MenuItems";
+import { Button } from "../Button";
 
 class Navbar extends Component {
 
@@ -38,7 +39,7 @@ class Navbar extends Component {
                             )
                         })}
                     </ul>
-
+                    <Button>Sign Up</Button>
                 </nav>
                 
             
