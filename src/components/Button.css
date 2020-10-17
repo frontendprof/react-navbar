@@ -9,13 +9,12 @@
     outline:none;
     border:none;
     cursor:pointer;
+    transition: all .3s ease-out;
 }
 
 .btn:hover{
-    padding:8px 20px;
-    transition: all .3s ease-out;
+    padding:8px 20px;    
     background: #fff;
-    transition: 250ms;
     color:#6568F4;
 }
 
